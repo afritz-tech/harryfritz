@@ -18,13 +18,13 @@ function Experience({ isDark }) {
 
   return (
     <section className="mt-24" id="experience">
-      <h1 className="dark:text-white text-4xl font-bold">
+      <h1 className="text-4xl font-bold dark:text-white">
         Experience<span className="text-blue dark:text-neon">.</span>
       </h1>
-      <div className="bg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md">
+      <div className="p-5 mt-5 rounded-md bg-fadeGray dark:bg-transparent">
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work relative"
+            className="relative vertical-timeline-element--work"
             contentStyle={{
               background: isDark ? "#26354d80" : "",
               color: isDark ? "#fff" : "",
@@ -33,7 +33,7 @@ function Experience({ isDark }) {
             iconStyle={{ background: "#016FFF", color: "#fff" }}
             icon={<MdWork />}
           >
-            <h1 className="vertical-timeline-element-title font-bold text-xl"></h1>
+            <h1 className="text-xl font-bold vertical-timeline-element-title"></h1>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p className="text-gray"></p>
             <div
@@ -43,17 +43,20 @@ function Experience({ isDark }) {
               id="1"
             >
               <div>
-                <h5 className="mt-5 my-2 text-xl font-bold">Activities</h5>
-                <ul className="list-disc ml-5 text-gray">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                <h5 className="my-2 mt-5 text-xl font-bold">Activities</h5>
+                <ul className="ml-5 list-disc text-gray">
+                  <li>
+                    I undergo as a Full-stack Web in the KodeGo Bootcamp
+                    Training
+                  </li>
+                  <li>I learned About Coding and Fundamentals</li>
+                  <li>I learned React Js</li>
+                  <li>And on the backend I learned PHP and Laravel</li>
                 </ul>
               </div>
               <div>
-                <h5 className="mt-5 my-2 text-xl font-bold">Technologies</h5>
-                <div className="flex flex-row items-center gap-2 flex-wrap text-gray">
+                <h5 className="my-2 mt-5 text-xl font-bold">Technologies</h5>
+                <div className="flex flex-row flex-wrap items-center gap-2 text-gray">
                   <div className="flex items-center gap-2 p-1 rounded-sm">
                     <i class="devicon-php-plain"></i>
                     <span>PHP</span>
@@ -79,7 +82,7 @@ function Experience({ isDark }) {
             </div>
             <div className="mt-5 absolute max-[515px]:text-sm max-[515px]:left-[10%] left-[30%] max-[515px]:right-[10%] right-[30%] -bottom-5 flex items-center justify-center">
               <button
-                className="flex items-center gap-2 bg-fadeGray dark:bg-darkBlue px-4 py-2 rounded-full drop-shadow-md font-medium hover:scale-110 transition-all duration-200"
+                className="flex items-center gap-2 px-4 py-2 font-medium transition-all duration-200 rounded-full bg-fadeGray dark:bg-darkBlue drop-shadow-md hover:scale-110"
                 onClick={() => toggleShow("1")}
               >
                 <span>

@@ -26,11 +26,11 @@ function About() {
             </span>
             ,{" "}
             <span className="font-semibold text-blue dark:text-neon">
-              Mysql
+              MySql
             </span>
             ,{" "}
             <span className="font-semibold text-blue dark:text-neon">
-              Javascript
+              JavaScript
             </span>
             ,{" "}
             <span className="font-semibold text-blue dark:text-neon">
@@ -41,7 +41,7 @@ function About() {
               Tailwind CSS
             </span>
             . Known as "Harry," I've been passionate about computers since I was
-            11 and began programming at 24, constantly learning and expanding my
+            14 and began programming at 24, constantly learning and expanding my
             skills.
           </p>
           <p className="text-xl text-gray dark:text-fadeGray mt-5 indent-20 max-[800px]:indent-5">
@@ -59,7 +59,7 @@ function About() {
             efficient web applications.
           </p>
         </div>
-        <div className="bg-blue-300 flex items-center justify-end relative w-72 h-96 max-[800px]:mt-5">
+        <div className="bg-blue-300 flex items-center justify-end relative w-80 h-50 max-[150px]:mt-5">
           <div className="absolute inset-0 z-0 border-4 rounded-md top-2 -right-3 left-5 -bottom-5 border-neon"></div>{" "}
           {/* Background frame */}
           <figure className="relative z-10">
