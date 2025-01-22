@@ -66,7 +66,7 @@ function About() {
             {" "}
             {/* Foreground image */}
             <img
-              src=""
+              src="/me.jpg"
               alt="my-picture"
               className="w-full h-full rounded-md"
               loading="lazy"
