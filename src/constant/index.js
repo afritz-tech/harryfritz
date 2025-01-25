@@ -43,7 +43,7 @@ export const ProjectList = [
     id: 6,
     title: "PP1 static Portfolio",
     desk: "Represents simple and creative way of building static portfolio website.",
-    link: "",
+    link: "https://afritz-tech.github.io/ACTIVITY.PP1/",
     imgLink: "/projects/pp1.png",
     color: "#23358D",
   },
