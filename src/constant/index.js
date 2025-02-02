@@ -47,44 +47,4 @@ export const ProjectList = [
     imgLink: "/projects/pp1.png",
     color: "#23358D",
   },
-  // {
-  //     id: 7,
-  //     title: "Ziza Theme",
-  //     desk: "VS Code extension with a minimal, dark blue color palette for a sleek coding experience.",
-  //     link: 'https://zizatheme-website.vercel.app/',
-  //     imgLink: '/projects/zizatheme.png',
-  //     color:"#F39B4D"
-  // },
-  // {
-  //     id: 8,
-  //     title: "Online Student Clearance",
-  //     desk: "Streamlines the clearance process for AMACC Naga students, enabling efficient management of academic and administrative approvals.",
-  //     link: '',
-  //     imgLink: '/projects/OnlineClearance.png',
-  //     color:"#FBD5D5"
-  // },
-  // {
-  //     id: 9,
-  //     title: "BookLinker",
-  //     desk: "A library management system for AMACC Naga",
-  //     link: '',
-  //     imgLink: '/projects/BookLinker.png',
-  //     color:"#6D2932"
-  // },
-  // {
-  //     id: 10,
-  //     title: "Harmony Organic",
-  //     desk: "Award-winning mini project developed during a bootcamp, initially a front-end project using Bootstrap and React.",
-  //     link: 'https://zizaaa.github.io/HarmonyOrganic/',
-  //     imgLink: '/projects/organicShop.png',
-  //     color:"#7C8D43"
-  // },
-  // {
-  //     id:11,
-  //     title:"Civil Registry Information System",
-  //     desk:"The Civil Registry Information System was designed for local government units to streamline and digitize civil record management, making it easier for citizens to access vital records such as birth certificates, marriage licenses, death certificates, and other official documents. Our client aimed to modernize their existing paper-based processes, reduce errors, and improve efficiency in handling public records.",
-  //     link:"https://civil-registry-informationsystem.vercel.app/",
-  //     imgLink:"/projects/CRIS.png",
-  //     color:"#0E7490"
-  // }
 ];
