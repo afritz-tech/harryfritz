@@ -47,4 +47,12 @@ export const ProjectList = [
     imgLink: "/projects/pp1.png",
     color: "#23358D",
   },
+  {
+    id: 7,
+    title: "House Of Yin",
+    desk: "Represents simple and creative way of building E-commerce product and has a responsive design.",
+    link: "https://e-commerce-psi-gules.vercel.app/",
+    imgLink: "/projects/e-commerce.png",
+    color: "#23358D",
+  },
 ];
